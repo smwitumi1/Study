@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>CHUUZA</title>
+</head>
+
+<body>
+    <div class="card">
+        <img src="./assets/images/dress JPEG_Image.jpg" alt="dress">
+        <h4>wedding Dress</h4>
+        <button onclick="openReadMore()">Read More</button>
+    </div>
+
+    <div id="readmore">
+        <button onclick="exit()">x</button>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero laudantium placeat aliquam ad corrupti, dolor
+            velit incidunt eaque consectetur a sunt quos ipsam, soluta at sequi rerum iusto esse tempore.</p>
+    </div>
+        
+
+
+    <script>
+
+        var readMore = document.getElementById("readmore")
+    
+        function openReadMore(){
+            readMore.style.display = "block";
+        }
+
+        function exit(){
+            readMore.style.display = "none";
+        }
+    
+    </script>
+    
+</body>
+
+
+</html>
